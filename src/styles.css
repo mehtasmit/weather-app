@@ -26,6 +26,10 @@ body {
     height: 80vh;
     background-color: var(--blue-2);
     box-shadow: 10px 10px 10px var(--shadow-dark);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
    
 }
 .upper-data {
@@ -108,4 +112,19 @@ body {
     justify-content: flex-start;
     align-items: center;
     color: var(--white);
+}
+.search {
+   margin-bottom: 1em;
+   text-align: center; 
+}
+.search input {
+    background-color: var(--shadow-light);
+    color: var(--green);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--green);
+    text-align: center;
+    font-size: 0.8em;
 }
