@@ -4,6 +4,7 @@
     --yellow: #FAC742;
     --white: #FFF;
     --grey: #EDEDED;
+    --green: #00ffcf;
     --shadow-dark: rgba(0,0,0,0.3);
     --shadow-light: rgba(255,255,255,0.1);
 }
@@ -92,12 +93,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 .information-block-label img {
     width: 1.5em;
 }
 .information-block-label  span {
-    color: var(--white);
+    color: var(--green);
     font-size: 0.8em;
 }
 .information-block-value {
